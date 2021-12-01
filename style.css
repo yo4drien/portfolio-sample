@@ -1,0 +1,82 @@
+
+/* 
+  style.css!
+  Made to accompany index.html on a journey
+  to portolio creation wisdom
+	
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+  background:#F1EEFB;
+}
+
+h1, h2, h3, p, ul, ol, footer {
+  text-align:center;
+  color: #72A1E5;
+  font-family: Quicksand;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+  color: #19488A;
+}
+
+.intro, .about, .contact {
+  background: #FFFFFF;
+}
+
+p, ul, ol, footer {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 6px;
+  padding: 3px;
+}
+hr {
+    border-top: 1px solid #2E382E;
+    width:50%;
+}
+ul {
+  list-style-type: none;
+  text-decoration: unset;
+}
+
+ol {
+  list-style-type: upper-alpha;
+}
+
+a {
+  color: #72A1E5;
+  text-decoration:none;
+}
+a:active {
+  color: #4182DC;
+}
+a:hover {
+  color: #4182DC;
+  text-decoration:underline;
+}
+a:visited {
+  color: #205AAC;
+}
+
+.center-image {
+  margin:0 auto;
+  text-align:center;
+}
+
+img {
+  border: 1px solid #3B1C32;
+  height: 250px;
+  margin:0 auto;
+}
+
+.intro, .about, .contact {
+  width: 50%;
+  margin: 0 auto;
+}
